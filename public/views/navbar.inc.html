@@ -1,0 +1,21 @@
+<div class="container-fluid" id="navbar" ng-controller="navbarCtrl">
+    <div class="row" style="margin-top: 10px;" ng-hide="loggedOut">
+        <div class="col-sm-2 col-sm-offset-3 text-center">
+            <a href="/#/profile" class="btn btn-primary btn-sm">Profile</a>
+        </div>
+        <div class="col-sm-2 text-center">
+            <a href="/#/portfolio" class="btn btn-primary btn-sm">Portfolio</a>
+        </div>
+        <div class="col-sm-2 text-center">
+            <a href="/#/resume" class="btn btn-primary btn-sm">Resume</a>
+        </div>
+        <div class="col-sm-2 col-sm-offset-1 text-center" style="padding-top: 15px;">
+            <div class="row">
+                <div class="col-sm-7" ng-show="{{loggedIn}}">Welcome {{user}}</div>
+                <div class="col-sm-7" ng-hide="{{loggedIn}}">Not signed in?</div>
+                <div class="col-sm-4"><a href="/#/login">Login - {{opa}}</a></div>
+            </div>
+        </div>
+    </div>
+    <!--$route.current.templateUrl = {{$route.current.templateUrl}}-->
+</div>

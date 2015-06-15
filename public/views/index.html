@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Erik Slack - Software Developer</title>
+	<link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--<link href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">-->
+    <link href="/vendor/bootswatch/bootswatch.darkly.min.css" rel="stylesheet" type="text/css">
+    
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+</head>
+<body ng-app="devProfileApp">
+    <div ng-include src="'views/header.inc.html'"></div>
+    <div ng-include src="'views/navbar.inc.html'"></div>
+    
+    <ng-view></ng-view>
+
+    <div ng-include src="'views/footer.inc.html'"></div>
+    
+
+	<!-- VENDOR -->
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/bower_components/angular-cookies/angular-cookies.js"></script>
+
+	<!-- MAIN -->
+    <script src="views/main.js"></script>
+
+    <!-- SERVICES -->
+    <script src="services/constants.js"></script>
+    <script src="services/authservice.js"></script>
+    <script src="services/dataservice.js"></script>
+    
+    <!-- VIEWS -->
+    <script src="views/login/login.js"></script>
+	<script src="views/login/login.js"></script>
+	<script src="views/signup/signup.js"></script>
+    <script src="views/portfolio/portfolio.js"></script>
+    <script src="views/profile/profile.js"></script>
+    <script src="views/resume/resume.js"></script>
+</body>
+</html>

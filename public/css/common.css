@@ -1,0 +1,105 @@
+/*@font-face {
+    font-family: Lato-Light;
+    src: url(fonts/Lato/Lato-Light);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato/Lato-Bold);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato/Lato-Regular);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black);
+}*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#header {
+    height: 100px;
+    background-color: rgb(48, 53, 58);
+}
+
+#header h1 {
+    color: rgb(158, 160, 163) !important;
+}
+
+#header logo {
+    
+}
+
+#navbar {
+    padding-bottom: 15px;
+    background-color: rgb(48, 53, 58);
+}
+
+#header h1 {
+    color: dodgerblue;
+}
+
+#main-content {
+    height: auto;
+    padding-bottom: 35px;
+}
+
+#main-content #skills-list .col-sm-3 img {
+    max-height: 150px;
+}
+
+#main-content .logo-img {
+    cursor: pointer;
+    max-height: 70px !important;
+}
+
+#footer {
+    padding: 15px;
+    border-top: solid 1px #D5D5D5;
+    min-height: 100px;
+    margin-top: 55px;
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 40px;
+    text-align: center;
+}
+
+div < .logo-img {
+    text-align: center;
+}
+
+.std-spacing-row {
+    margin-top: 25px;
+}
+
+.slack-box {
+    background-color: #f7f7f7;
+    padding-top: 10px;
+    box-shadow: 1px 3px 5px #444;
+    min-height:450px;
+    color: #444;
+}
+
+#skills-row {
+    background-color: rgba(255, 255, 255, 0.83);
+    color: #444;
+}
+
+.bg-white {
+    background-color: #fff;
+}

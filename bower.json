@@ -1,0 +1,22 @@
+{
+  "name": "burlywood",
+  "version": "0.0.0",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4",
+    "angular-cookies": "~1.4.0"
+  }
+}
